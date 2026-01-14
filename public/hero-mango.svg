@@ -1,0 +1,57 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7DB"/>
+      <stop offset="0.55" stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#DFF2E1"/>
+    </linearGradient>
+    <linearGradient id="mango" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE08A"/>
+      <stop offset="0.55" stop-color="#FFC233"/>
+      <stop offset="1" stop-color="#F3A400"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DFF2E1"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </linearGradient>
+    <filter id="blur" x="-200" y="-200" width="2000" height="1400" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#g1)"/>
+
+  <!-- soft blobs -->
+  <g filter="url(#blur)" opacity="0.55">
+    <circle cx="1320" cy="210" r="190" fill="#FFE08A"/>
+    <circle cx="360" cy="820" r="240" fill="#DFF2E1"/>
+    <circle cx="1260" cy="860" r="210" fill="#FFF7DB"/>
+  </g>
+
+  <!-- stylized orchard rows -->
+  <g opacity="0.28" stroke="#256628" stroke-width="10">
+    <path d="M-40 670 C 260 520, 520 510, 900 650 C 1180 755, 1400 755, 1660 635"/>
+    <path d="M-40 740 C 260 590, 520 580, 900 720 C 1180 825, 1400 825, 1660 705"/>
+    <path d="M-40 810 C 260 660, 520 650, 900 790 C 1180 895, 1400 895, 1660 775"/>
+  </g>
+
+  <!-- mango shapes -->
+  <g>
+    <path d="M1170 360 C1135 270, 1210 170, 1320 210 C1445 255, 1450 405, 1340 470 C1235 533, 1200 450, 1170 360 Z" fill="url(#mango)" opacity="0.9"/>
+    <path d="M970 320 C940 245, 1000 165, 1095 195 C1202 229, 1212 351, 1123 404 C1039 454, 996 395, 970 320 Z" fill="url(#mango)" opacity="0.78"/>
+
+    <!-- leaves -->
+    <path d="M1298 182 C1342 146, 1422 144, 1475 190 C1412 226, 1340 232, 1298 182 Z" fill="url(#leaf)" opacity="0.9"/>
+    <path d="M1080 172 C1120 142, 1188 150, 1232 190 C1174 214, 1112 214, 1080 172 Z" fill="url(#leaf)" opacity="0.85"/>
+  </g>
+
+  <!-- dots for premium feel -->
+  <g opacity="0.22" fill="#151515">
+    <circle cx="180" cy="190" r="3"/>
+    <circle cx="220" cy="230" r="2"/>
+    <circle cx="280" cy="170" r="2"/>
+    <circle cx="320" cy="220" r="3"/>
+    <circle cx="380" cy="180" r="2"/>
+    <circle cx="420" cy="235" r="2"/>
+  </g>
+</svg>

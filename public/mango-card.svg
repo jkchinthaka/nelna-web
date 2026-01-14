@@ -1,0 +1,37 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7DB"/>
+      <stop offset="0.55" stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#DFF2E1"/>
+    </linearGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE08A"/>
+      <stop offset="0.55" stop-color="#FFC233"/>
+      <stop offset="1" stop-color="#F3A400"/>
+    </linearGradient>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DFF2E1"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+
+  <g opacity="0.18" stroke="#256628" stroke-width="10">
+    <path d="M-30 520 C 210 410, 480 410, 760 520 C 960 600, 1080 600, 1230 520"/>
+    <path d="M-30 585 C 210 475, 480 475, 760 585 C 960 665, 1080 665, 1230 585"/>
+  </g>
+
+  <path d="M610 270 C575 175, 660 90, 770 125 C905 170, 905 320, 790 390 C675 458, 640 366, 610 270 Z" fill="url(#m)" opacity="0.92"/>
+  <path d="M740 105 C785 70, 860 80, 915 125 C852 156, 780 162, 740 105 Z" fill="url(#l)" opacity="0.92"/>
+
+  <path d="M345 330 C320 260, 375 200, 450 225 C540 255, 548 360, 475 405 C405 448, 365 400, 345 330 Z" fill="url(#m)" opacity="0.55"/>
+
+  <g opacity="0.25" fill="#151515">
+    <circle cx="110" cy="120" r="3"/>
+    <circle cx="150" cy="160" r="2"/>
+    <circle cx="210" cy="115" r="2"/>
+    <circle cx="250" cy="170" r="3"/>
+  </g>
+</svg>

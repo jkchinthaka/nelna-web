@@ -1,0 +1,6 @@
+- Verify this file exists
+- Project: Next.js (App Router) + TypeScript + Tailwind CSS
+- Website: Nelna Mango corporate export-focused site (non-ecommerce)
+- Requirements: premium mango-inspired design, responsive, SEO-ready, CMS/admin, inquiry generation
+- Avoid: pricing/cart/payments/orders
+- Prefer: clean components, accessible UI, performance optimizations (next/image, lazy loading)
