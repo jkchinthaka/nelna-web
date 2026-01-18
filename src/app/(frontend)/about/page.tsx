@@ -37,18 +37,22 @@ export default function AboutPage() {
             <Card className="overflow-hidden">
               <div className="relative h-72 bg-linear-to-br from-mango-50 via-earth-50 to-leaf-100">
                 <Image
-                  src="/hero-mango.svg"
-                  alt="Nelna Mango illustration"
+                  src="/about-wandama.jpg"
+                  alt="Wandama Plantation entrance at Nelna"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
                 />
+                <div className="absolute inset-0 bg-linear-to-t from-black/45 via-black/10 to-transparent" />
+                <div className="absolute left-5 top-5 rounded-full bg-black/35 px-4 py-2 text-xs font-medium tracking-wide text-white ring-1 ring-white/20 backdrop-blur">
+                  Wandama Plantation
+                </div>
               </div>
               <div className="p-6">
                 <p className="text-sm leading-6 text-muted">
-                  This section is CMS-editable in the next step. It will hold your
-                  official company background, farm locations, certifications,
-                  and leadership story.
+                  A glimpse of our orchard roots — where disciplined farming and
+                  export-ready handling begin.
                 </p>
               </div>
             </Card>
