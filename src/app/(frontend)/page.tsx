@@ -98,10 +98,10 @@ export default function Home() {
             <div className="relative rounded-5xl bg-surface/40 p-3 ring-1 ring-white/50 shadow-2xl backdrop-blur-xl">
               <div className="relative overflow-hidden rounded-4xl bg-white aspect-4/5 sm:aspect-3/4 lg:aspect-4/5 lg:w-100">
                 <Image
-                  src="/hero-mango.svg"
-                  alt="Mango-inspired illustration"
+                  src="/home-hero.jpg"
+                  alt="Nelna Farm Premium Mangoes"
                   fill
-                  className="object-cover opacity-90 transition-transform duration-[20s] ease-linear hover:scale-110"
+                  className="object-cover transition-transform duration-[20s] ease-linear hover:scale-110"
                   priority
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />
