@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: projectRoot,
   },
-  reactCompiler: false,
 };
 
 export default withPayload(nextConfig);
